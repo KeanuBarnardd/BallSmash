@@ -1,0 +1,230 @@
+-debug
+-target:library
+-nowarn:0169
+-langversion:4
+-out:Temp/Assembly-CSharp.dll
+-unsafe
+-r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/Variations/il2cpp/Managed/UnityEngine.dll"
+-r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/Variations/il2cpp/Managed/UnityEngine.CoreModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/Variations/il2cpp/Managed/UnityEngine.AccessibilityModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/Variations/il2cpp/Managed/UnityEngine.ParticleSystemModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/Variations/il2cpp/Managed/UnityEngine.PhysicsModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/Variations/il2cpp/Managed/UnityEngine.VehiclesModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/Variations/il2cpp/Managed/UnityEngine.ClothModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/Variations/il2cpp/Managed/UnityEngine.AIModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/Variations/il2cpp/Managed/UnityEngine.AnimationModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/Variations/il2cpp/Managed/UnityEngine.TextRenderingModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/Variations/il2cpp/Managed/UnityEngine.UIModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/Variations/il2cpp/Managed/UnityEngine.TerrainPhysicsModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/Variations/il2cpp/Managed/UnityEngine.IMGUIModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/Variations/il2cpp/Managed/UnityEngine.UNETModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/Variations/il2cpp/Managed/UnityEngine.DirectorModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/Variations/il2cpp/Managed/UnityEngine.UnityAnalyticsModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/Variations/il2cpp/Managed/UnityEngine.PerformanceReportingModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/Variations/il2cpp/Managed/UnityEngine.UnityConnectModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/Variations/il2cpp/Managed/UnityEngine.WebModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/Variations/il2cpp/Managed/UnityEngine.ARModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/Variations/il2cpp/Managed/UnityEngine.VRModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/Variations/il2cpp/Managed/UnityEngine.UIElementsModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/Variations/il2cpp/Managed/UnityEngine.StyleSheetsModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/Variations/il2cpp/Managed/UnityEngine.AssetBundleModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/Variations/il2cpp/Managed/UnityEngine.AudioModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/Variations/il2cpp/Managed/UnityEngine.CrashReportingModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/Variations/il2cpp/Managed/UnityEngine.GameCenterModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/Variations/il2cpp/Managed/UnityEngine.GridModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/Variations/il2cpp/Managed/UnityEngine.ImageConversionModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/Variations/il2cpp/Managed/UnityEngine.InputModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/Variations/il2cpp/Managed/UnityEngine.JSONSerializeModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/Variations/il2cpp/Managed/UnityEngine.ParticlesLegacyModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/Variations/il2cpp/Managed/UnityEngine.Physics2DModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/Variations/il2cpp/Managed/UnityEngine.ScreenCaptureModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/Variations/il2cpp/Managed/UnityEngine.SharedInternalsModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/Variations/il2cpp/Managed/UnityEngine.SpriteMaskModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/Variations/il2cpp/Managed/UnityEngine.SpriteShapeModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/Variations/il2cpp/Managed/UnityEngine.TerrainModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/Variations/il2cpp/Managed/UnityEngine.TilemapModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/Variations/il2cpp/Managed/UnityEngine.UnityWebRequestModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/Variations/il2cpp/Managed/UnityEngine.UnityWebRequestAudioModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/Variations/il2cpp/Managed/UnityEngine.UnityWebRequestTextureModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/Variations/il2cpp/Managed/UnityEngine.UnityWebRequestWWWModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/Variations/il2cpp/Managed/UnityEngine.VideoModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/Variations/il2cpp/Managed/UnityEngine.WindModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/Standalone/UnityEngine.UI.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/Standalone/UnityEngine.Networking.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Timeline/Runtime/UnityEngine.Timeline.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/Runtime/UnityEngine.SpatialTracking.dll"
+-r:C:/Users/Keanu/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.10/UnityEngine.StandardEvents.dll
+-define:UNITY_5_3_OR_NEWER
+-define:UNITY_5_4_OR_NEWER
+-define:UNITY_5_5_OR_NEWER
+-define:UNITY_5_6_OR_NEWER
+-define:UNITY_2017_1_OR_NEWER
+-define:UNITY_2017_2_OR_NEWER
+-define:UNITY_2017_3_OR_NEWER
+-define:UNITY_2017_3_0
+-define:UNITY_2017_3
+-define:UNITY_2017
+-define:ENABLE_AUDIO
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_GENERICS
+-define:ENABLE_PVR_GI
+-define:ENABLE_MICROPHONE
+-define:ENABLE_MULTIPLE_DISPLAYS
+-define:ENABLE_PHYSICS
+-define:ENABLE_SPRITERENDERER_FLIPPING
+-define:ENABLE_SPRITES
+-define:ENABLE_GRID
+-define:ENABLE_TILEMAP
+-define:ENABLE_TERRAIN
+-define:ENABLE_RAKNET
+-define:ENABLE_DIRECTOR
+-define:ENABLE_UNET
+-define:ENABLE_LZMA
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_WEBCAM
+-define:ENABLE_WWW
+-define:ENABLE_CLOUD_SERVICES_COLLAB
+-define:ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS
+-define:ENABLE_CLOUD_HUB
+-define:ENABLE_CLOUD_PROJECT_ID
+-define:ENABLE_CLOUD_SERVICES_USE_WEBREQUEST
+-define:ENABLE_CLOUD_SERVICES_UNET
+-define:ENABLE_CLOUD_SERVICES_BUILD
+-define:ENABLE_CLOUD_LICENSE
+-define:ENABLE_EDITOR_HUB
+-define:ENABLE_EDITOR_HUB_LICENSE
+-define:ENABLE_WEBSOCKET_CLIENT
+-define:ENABLE_DIRECTOR_AUDIO
+-define:ENABLE_DIRECTOR_TEXTURE
+-define:ENABLE_TIMELINE
+-define:ENABLE_EDITOR_METRICS
+-define:ENABLE_EDITOR_METRICS_CACHING
+-define:ENABLE_NATIVE_ARRAY
+-define:ENABLE_SPRITE_MASKING
+-define:INCLUDE_DYNAMIC_GI
+-define:INCLUDE_GI
+-define:ENABLE_MONO_BDWGC
+-define:PLATFORM_SUPPORTS_MONO
+-define:INCLUDE_PUBNUB
+-define:ENABLE_PLAYMODE_TESTS_RUNNER
+-define:ENABLE_VIDEO
+-define:ENABLE_RMGUI
+-define:ENABLE_PACKMAN
+-define:ENABLE_CUSTOM_RENDER_TEXTURE
+-define:ENABLE_STYLE_SHEETS
+-define:ENABLE_LOCALIZATION
+-define:ENABLE_RUNTIME_GI
+-define:ENABLE_SUBSTANCE
+-define:ENABLE_GAMECENTER
+-define:ENABLE_NETWORK
+-define:ENABLE_UNITYWEBREQUEST
+-define:ENABLE_CLOUD_SERVICES
+-define:ENABLE_CLOUD_SERVICES_ADS
+-define:ENABLE_CLOUD_SERVICES_ANALYTICS
+-define:ENABLE_CLOUD_SERVICES_PURCHASING
+-define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+-define:ENABLE_CLOUD_SERVICES_IOS_NATIVE_CRASH_REPORTING
+-define:PLAYERCONNECTION_LISTENS_FIXED_PORT
+-define:DEBUGGER_LISTENS_FIXED_PORT
+-define:PLATFORM_SUPPORTS_ADS_ID
+-define:SUPPORT_ENVIRONMENT_VARIABLES
+-define:PLATFORM_SUPPORTS_PROFILER
+-define:PLATFORM_HAS_NO_SUPPORT_FOR_BUCKET_ALLOCATOR
+-define:STRICTCPP_NEW_DELETE_SIGNATURES
+-define:HAS_NEON_SKINNIG
+-define:UNITY_GFX_USE_PLATFORM_VSYNC
+-define:UNITY_INPUT_SIMULATE_EVENTS
+-define:PLATFORM_ALWAYS_USES_STDOUT_FOR_LOG
+-define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+-define:ENABLE_VR
+-define:ENABLE_AR
+-define:ENABLE_SPATIALTRACKING
+-define:ENABLE_UNITYADS_RUNTIME
+-define:UNITY_UNITYADS_API
+-define:PLATFORM_IOS
+-define:UNITY_IOS
+-define:PLATFORM_IPHONE
+-define:UNITY_IPHONE
+-define:UNITY_IPHONE_API
+-define:SUPPORT_MULTIPLE_DISPLAYS
+-define:ENABLE_IL2CPP
+-define:NET_2_0_SUBSET
+-define:DEVELOPMENT_BUILD
+-define:ENABLE_PROFILER
+-define:DEBUG
+-define:TRACE
+-define:UNITY_ASSERTIONS
+-define:ENABLE_IOS_ON_DEMAND_RESOURCES
+-define:ENABLE_IOS_APP_SLICING
+-define:UNITY_HAS_GOOGLEVR
+Assets/gamedata/postprocessing/Runtime/PostProcessingBehaviour.cs
+Assets/gamedata/postprocessing/Runtime/PostProcessingComponent.cs
+Assets/gamedata/postprocessing/Runtime/PostProcessingContext.cs
+Assets/gamedata/postprocessing/Runtime/PostProcessingModel.cs
+Assets/gamedata/postprocessing/Runtime/PostProcessingProfile.cs
+Assets/gamedata/postprocessing/runtime-1/Attributes/GetSetAttribute.cs
+Assets/gamedata/postprocessing/runtime-1/Attributes/MinAttribute.cs
+Assets/gamedata/postprocessing/runtime-1/Attributes/TrackballAttribute.cs
+Assets/gamedata/postprocessing/runtime-1/Attributes/TrackballGroupAttribute.cs
+Assets/gamedata/postprocessing/runtime-1/Components/AmbientOcclusionComponent.cs
+Assets/gamedata/postprocessing/runtime-1/Components/BloomComponent.cs
+Assets/gamedata/postprocessing/runtime-1/Components/BuiltinDebugViewsComponent.cs
+Assets/gamedata/postprocessing/runtime-1/Components/ChromaticAberrationComponent.cs
+Assets/gamedata/postprocessing/runtime-1/Components/ColorGradingComponent.cs
+Assets/gamedata/postprocessing/runtime-1/Components/DepthOfFieldComponent.cs
+Assets/gamedata/postprocessing/runtime-1/Components/DitheringComponent.cs
+Assets/gamedata/postprocessing/runtime-1/Components/EyeAdaptationComponent.cs
+Assets/gamedata/postprocessing/runtime-1/Components/FogComponent.cs
+Assets/gamedata/postprocessing/runtime-1/Components/FxaaComponent.cs
+Assets/gamedata/postprocessing/runtime-1/Components/GrainComponent.cs
+Assets/gamedata/postprocessing/runtime-1/Components/MotionBlurComponent.cs
+Assets/gamedata/postprocessing/runtime-1/Components/ScreenSpaceReflectionComponent.cs
+Assets/gamedata/postprocessing/runtime-1/Components/TaaComponent.cs
+Assets/gamedata/postprocessing/runtime-1/Components/UserLutComponent.cs
+Assets/gamedata/postprocessing/runtime-1/Components/VignetteComponent.cs
+Assets/gamedata/postprocessing/runtime-1/Models/AmbientOcclusionModel.cs
+Assets/gamedata/postprocessing/runtime-1/Models/AntialiasingModel.cs
+Assets/gamedata/postprocessing/runtime-1/Models/BloomModel.cs
+Assets/gamedata/postprocessing/runtime-1/Models/BuiltinDebugViewsModel.cs
+Assets/gamedata/postprocessing/runtime-1/Models/ChromaticAberrationModel.cs
+Assets/gamedata/postprocessing/runtime-1/Models/ColorGradingModel.cs
+Assets/gamedata/postprocessing/runtime-1/Models/DepthOfFieldModel.cs
+Assets/gamedata/postprocessing/runtime-1/Models/DitheringModel.cs
+Assets/gamedata/postprocessing/runtime-1/Models/EyeAdaptationModel.cs
+Assets/gamedata/postprocessing/runtime-1/Models/FogModel.cs
+Assets/gamedata/postprocessing/runtime-1/Models/GrainModel.cs
+Assets/gamedata/postprocessing/runtime-1/Models/MotionBlurModel.cs
+Assets/gamedata/postprocessing/runtime-1/Models/ScreenSpaceReflectionModel.cs
+Assets/gamedata/postprocessing/runtime-1/Models/UserLutModel.cs
+Assets/gamedata/postprocessing/runtime-1/Models/VignetteModel.cs
+Assets/gamedata/postprocessing/runtime-1/Utils/ColorGradingCurve.cs
+Assets/gamedata/postprocessing/runtime-1/Utils/GraphicsUtils.cs
+Assets/gamedata/postprocessing/runtime-1/Utils/MaterialFactory.cs
+Assets/gamedata/postprocessing/runtime-1/Utils/RenderTextureFactory.cs
+Assets/gamedata/postprocessing/utilities/CustomMotionTexture-1/ExampleWheelController.cs
+Assets/gamedata/Scripts/BallCollision.cs
+Assets/gamedata/Scripts/BallMovement.cs
+Assets/gamedata/Scripts/CameraControl.cs
+Assets/gamedata/Scripts/ColourChanger.cs
+Assets/gamedata/Scripts/fader.cs
+Assets/gamedata/Scripts/FindClosestBall.cs
+Assets/gamedata/Scripts/LoadLevel.cs
+Assets/gamedata/Scripts/MainMenu.cs
+Assets/gamedata/Scripts/OpenWebLink.cs
+Assets/gamedata/Scripts/RoundHandler.cs
+Assets/gamedata/Scripts/ScoreManager.cs
+Assets/gamedata/Scripts/ScreenShake.cs
+Assets/gamedata/Scripts/ScrollHandle.cs
+Assets/gamedata/Scripts/SoundButton.cs
+Assets/gamedata/Scripts/SoundManager.cs
+Assets/gamedata/Scripts/SpawnHandler.cs
+Assets/gamedata/Scripts/SwipeControls.cs
+Assets/gamedata/Scripts/TeaseMessage.cs
+Assets/scri.cs
+-r:"C:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\System.Runtime.Serialization.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\System.Xml.Linq.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\UnityScript.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\UnityScript.Lang.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\Boo.Lang.dll"
+-sdk:unity
